@@ -32,4 +32,4 @@ IP-CIDR,208.67.220.220/32,no-resolve
 
 # ACG
 DOMAIN-SUFFIX,acgbox.link
-DOMAIN-SUFFIX,dongti.me
+DOMAIN-KEYWORD,dongti
