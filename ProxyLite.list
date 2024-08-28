@@ -33,3 +33,4 @@ IP-CIDR,208.67.220.220/32,no-resolve
 # ACG
 DOMAIN-SUFFIX,acgbox.link
 DOMAIN-KEYWORD,dongti
+DOMAIN-SUFFIX,h-ciyuan.com
