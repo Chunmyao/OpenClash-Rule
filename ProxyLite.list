@@ -34,6 +34,7 @@ IP-CIDR,208.67.220.220/32,no-resolve
 DOMAIN-SUFFIX,acgbox.link
 DOMAIN-KEYWORD,dongti
 DOMAIN-SUFFIX,h-ciyuan.com
+DOMAIN-SUFFIX,acg.rip
 
 #资源
 DOMAIN-SUFFIX,rutracker.org
