@@ -1,27 +1,24 @@
-# 代理补充列表
+# Chunmyao 个人代理补充列表
+# 用途：只记录通用规则集未覆盖、但必须通过代理访问的例外。
+# 维护原则：优先使用 DOMAIN / DOMAIN-SUFFIX，谨慎使用 DOMAIN-KEYWORD 和固定 IP。
 
-# 域名后缀匹配
+# Nikki / Mihomo / OpenClash 相关站点
 DOMAIN-SUFFIX,qichiyu.com
 
-# 域名关键字匹配
-DOMAIN-KEYWORD,1e100
+# Google 基础设施
+# 旧规则 DOMAIN-KEYWORD,1e100 范围过宽，收紧到 Google 实际使用的域名后缀。
+DOMAIN-SUFFIX,1e100.net
 
-# IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-
-# 国外DNS
+# 国外加密 DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,dot.sb
 DOMAIN-SUFFIX,doh.dns.sb
+DOMAIN-SUFFIX,hk-hkg.doh.sb
+DOMAIN-SUFFIX,dns.umbrella.com
 DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
@@ -30,11 +27,14 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 
-# ACG
+# ACG / 资源网站
 DOMAIN-SUFFIX,acgbox.link
 DOMAIN-KEYWORD,dongti
 DOMAIN-SUFFIX,h-ciyuan.com
 DOMAIN-SUFFIX,acg.rip
-
-#资源
 DOMAIN-SUFFIX,rutracker.org
+
+# 历史 IP 例外
+# 暂时保留；确认对应服务失效或地址变化后再删除或替换为域名规则。
+IP-CIDR,142.171.133.131/32,no-resolve
+IP-CIDR,103.115.43.2/32,no-resolve
