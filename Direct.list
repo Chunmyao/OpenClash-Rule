@@ -7,3 +7,11 @@ DOMAIN,myip.ipip.net
 DOMAIN,v4.666666.host
 DOMAIN,4.ipw.cn
 DOMAIN,ip.3322.net
+
+# 暴雪与守望先锋国服
+DOMAIN-SUFFIX,battlenet.com.cn
+DOMAIN-SUFFIX,blizzard.cn
+DOMAIN-SUFFIX,blizzardgames.cn
+DOMAIN-SUFFIX,blzstatic.cn
+DOMAIN-SUFFIX,bnet.163.com
+DOMAIN-SUFFIX,overwatch.nosdn.127.net
