@@ -5,6 +5,9 @@
 # Nikki / Mihomo / OpenClash 相关站点
 DOMAIN-SUFFIX,qichiyu.com
 
+# Jellyfin 官网
+DOMAIN-SUFFIX,jellyfin.org
+
 # Google 基础设施
 # 旧规则 DOMAIN-KEYWORD,1e100 范围过宽，收紧到 Google 实际使用的域名后缀。
 DOMAIN-SUFFIX,1e100.net
