@@ -30,6 +30,9 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 
+# 远程工作平台
+DOMAIN-SUFFIX,upwork.com
+
 # ACG / 资源网站
 DOMAIN-SUFFIX,acgbox.link
 DOMAIN-KEYWORD,dongti
